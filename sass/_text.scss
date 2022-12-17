@@ -1,0 +1,44 @@
+.text-width {
+
+    @media screen and (min-width: 991.99px) {
+        max-width: 410px;
+    }
+}
+
+.text__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.26;
+    color: $color_black;
+    margin: 0 0 12px 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 34px;
+    }
+}
+
+.text__title-blue {
+    color: $color_accent2;
+}
+
+.text__title-red {
+    color: $color_accent;
+}
+
+.text__subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.37;
+    letter-spacing: 1.5px;
+    color: $color_average;
+    margin: 0 0 24px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-mw {
+    max-width: 630px;
+    margin: 0px auto;
+}
